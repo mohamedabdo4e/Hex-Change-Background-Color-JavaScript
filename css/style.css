@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s ease-in-out;
+}
+
+
+.main-btn{
+    background-color: #6d767f;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    border: 0; 
+}
+
+.main-btn:active{
+    transform: scale(0.98);
+}
+
+.color-in{
+    position: absolute;
+    top:40%;
+    margin-bottom: 2%;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
